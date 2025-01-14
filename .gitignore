@@ -1,0 +1,7 @@
+# Ignore executable files
+*.exe
+
+# Specific file
+src/mobile_robot_simulation/dist/agent_simulation.exe
+
+src/mobile_robot_simulation/build/agent_simulation/agent_simulation.pkg

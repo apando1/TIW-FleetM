@@ -1,0 +1,32 @@
+{
+    "pygame_fps": 30,
+    "_comment1": "Frame rate of the visualisation.",
+
+    "pygame_scaling_factor": 120,
+    "_comment2": "Scaling factor of the visualisation.",
+
+    "mqtt_broker_ip": "localhost",
+    "_comment3": "IP address of the MQTT broker.",
+
+    "mqtt_broker_port": 1883,
+    "_comment4": "Port of the MQTT broker.",
+
+    "agent_rotation_diameter": 1,
+    "_comment10": "Diameter of the circle the agent requires to rotate around its kinematic center point in meters. Homogeneous fleet, all agents have the same diameter.",
+
+    "simulation_run_time": 1000000,
+    "_comment11": "Simulation run time in seconds. Value can be set high for 'infinite' simulation.",
+
+    "dwelling_nodes": ["N9", "N10", "N11", "N12"],
+    "_comment12": "List of node IDs where agents can stop and wait for new tasks, e.g. ['N9', 'N10', 'N11', 'N12'].",
+
+    "simulation_mode": "SIMULATION",
+    "_comment13": "Boolean indicating if the simulation mode is active. When 'SIMULATION' is set, the simulated agents are publishing state messages to the MQTT broker. When 'REAL_AGENTS' is set, the simulated agents are not publishing state messages to the MQTT broker.",
+
+    "draw_outline": false,
+    "_comment14": "Boolean indicating if the outline of the simulation environment should be drawn.",
+
+    "draw_legend": false,
+    "_comment15": "Boolean indicating if the legend of the simulation environment should be drawn."
+}
+

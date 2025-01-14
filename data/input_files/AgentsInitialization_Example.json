@@ -1,0 +1,29 @@
+{
+    "mapId": "Map_1",
+    "agents": [
+        {
+            "agentId": "1",
+            "stateTopic": "IMRL/fleet_management/agent_1/state",
+            "orderTopic": "IMRL/fleet_management/agent_1/order",
+            "agentPosition": {
+                "x": 1.875,
+                "y": 1.875,
+                "theta": 3.141592653589793
+            },
+            "agentVelocity": 2.0,
+            "agentRotationVelocity": 3.0
+        },
+        {
+            "agentId": "2",
+            "stateTopic": "IMRL/fleet_management/agent_2/state",
+            "orderTopic": "IMRL/fleet_management/agent_2/order",
+            "agentPosition": {
+                "x": 1.875,
+                "y": 3.125,
+                "theta": 0
+            },
+            "agentVelocity": 1.0,
+            "agentRotationVelocity": 3.0
+        }
+    ]
+}

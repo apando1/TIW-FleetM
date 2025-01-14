@@ -1,0 +1,46 @@
+altgraph==0.17.4
+attrs @ file:///C:/b/abs_24xj44kobp/croot/attrs_1729089434205/work
+Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
+certifi @ file:///C:/b/abs_1fw_exq1si/croot/certifi_1725551736618/work/certifi
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+colorama @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/colorama_1699472650914/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1732815139829/work
+imageio-ffmpeg @ file:///home/conda/feedstock_root/build_artifacts/imageio-ffmpeg_1717461632069/work
+importlib_resources @ file:///C:/b/abs_e9f8_0_2dq/croot/importlib_resources-suite_1720641112288/work
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1733472696581/work
+jsonschema-specifications @ file:///C:/Users/dev-admin/py312/jsonschema-specifications_1706803038066/work
+mkl-service==2.4.0
+mkl_fft @ file:///C:/Users/dev-admin/mkl/mkl_fft_1730823082242/work
+mkl_random @ file:///C:/Users/dev-admin/mkl/mkl_random_1730822522280/work
+moviepy @ file:///home/conda/feedstock_root/build_artifacts/moviepy_1665160419595/work
+numpy @ file:///C:/b/abs_c1ywpu18ar/croot/numpy_and_numpy_base_1708638681471/work/dist/numpy-1.26.4-cp312-cp312-win_amd64.whl#sha256=becc06674317799ad0165a939a7613809d0bee9bd328a1e4308c57c39cacf08c
+opencv-python==4.10.0
+opencv-python-headless==4.10.0
+packaging @ file:///C:/b/abs_c3vlh0z4jw/croot/packaging_1720101866539/work
+paho-mqtt==2.1.0
+pefile==2023.2.7
+pillow @ file:///C:/b/abs_2cm0qc1vxk/croot/pillow_1731594717982/work
+pkgutil_resolve_name @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pkgutil-resolve-name_1707447687581/work
+platformdirs @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/platformdirs_1701797392447/work
+pooch @ file:///C:/b/abs_7acoiuwpey/croot/pooch_1731007069545/work
+proglog @ file:///home/conda/feedstock_root/build_artifacts/proglog_1728452852274/work
+pygame==2.6.1
+pygame-screen-record==0.1.1
+pyinstaller==6.11.1
+pyinstaller-hooks-contrib==2024.10
+PySocks @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pysocks_1699473336188/work
+pywin32-ctypes==0.2.3
+referencing @ file:///C:/Users/dev-admin/py312/referencing_1706802962559/work
+requests @ file:///C:/b/abs_c3508vg8ez/croot/requests_1731000584867/work
+rpds-py @ file:///C:/b/abs_4b4__dizw9/croot/rpds-py_1732234502033/work
+scipy @ file:///C:/Users/dev-admin/cr_scipy-release/scipy_1731632527468/work/dist/scipy-1.14.1-cp312-cp312-win_amd64.whl#sha256=34653c6cd617d15590b20aad84b54b5f7f6ed8f683edeeadb2260696234ef19e
+setuptools==75.1.0
+sortedcontainers @ file:///tmp/build/80754af9/sortedcontainers_1623949099177/work
+tqdm @ file:///C:/b/abs_77wju137gk/croot/tqdm_1724853945787/work
+urllib3 @ file:///C:/b/abs_9a_f8h_bn2/croot/urllib3_1727769836930/work
+wheel==0.44.0
+win-inet-pton @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/win_inet_pton_1699472992992/work
+zipp @ file:///C:/b/abs_2fcpcg89my/croot/zipp_1732630746332/work
+
