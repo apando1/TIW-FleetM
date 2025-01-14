@@ -14,7 +14,7 @@ class Graph:
         self.nodes = {}
         self.edges = {}
         self.stations = {}
-        self._initialize_graph(lif_data)
+        self.initialize_graph(lif_data)
     
     def initialize_graph(self,lif_data): 
         #Extracts nodes, edges, and stations from the LIF data
