@@ -8,13 +8,13 @@ class Graph:
 
     def __init__(self, lif_data):
         # Define the dictionaries to store the data: nodes, edges, stations
-        # Initializes the graph by calling _initialize_graph, 
+        # Initializes the graph by calling initialize_graph, 
         # which populates the dictionaries with the LIF data.
         
         self.nodes = {}
         self.edges = {}
         self.stations = {}
-        self._initialize_graph(lif_data)
+        self.initialize_graph(lif_data)
     
     def initialize_graph(self,lif_data): 
         #Extracts nodes, edges, and stations from the LIF data

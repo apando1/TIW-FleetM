@@ -85,7 +85,7 @@ def run_simulation(config_manager: ConfigManager, logging: logging.Logger):
 
     # Initialize the objects of the fleet manager.
     graph = Graph(lif_data=config_manager.lif_data)
-    agents_object = Agents(config_data=config_manager.config_data, logging=logging)
+    agents_object = Agents(config_data=config_manager.config_data, logging=logging) 
     task_management = TaskManagement()
     task_assignment = TaskAssignment()
     fleet_management = FleetManagement(agents_object=agents_object)
