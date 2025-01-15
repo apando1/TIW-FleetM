@@ -86,10 +86,21 @@ def run_simulation(config_manager: ConfigManager, logging: logging.Logger):
     # Initialize the objects of the fleet manager.
     graph = Graph(lif_data=config_manager.lif_data)
     agents_object = Agents(config_data=config_manager.config_data, logging=logging) 
-    task_management = TaskManagement()
-    task_assignment = TaskAssignment()
+    task_management = TaskManagement("data/input_files/TransportationTasks_Example.json") #Read file
+    task_assignment = TaskAssignment(agents_object, graph) # Assign agents and graph
     fleet_management = FleetManagement(agents_object=agents_object)
 
+    # Run the simulation loop.
+    while True:
+        task = task_management.get_next_task()
+        if not task:
+            logging.info("All tasks completed.")
+            break
+
+        if task_assignment.assign_task(task):
+            task_management.update_task_status(task["transportationTaskId"], "in_progress")
+        time.sleep(1)
+    
     # Run the simulation for the specified time.
     time.sleep(config_manager.config_data["simulation_run_time"])
 
