@@ -566,3 +566,8 @@
 2025-01-15 01:24:03,945 - INFO - Connected client state_publisher_simulated_agent_2 to MQTT broker.
 2025-01-15 01:24:04,029 - INFO - Connected client order_subscriber_simulated_agent_2 to MQTT broker.
 2025-01-15 01:24:04,547 - INFO - Agent simulation started at time 0.0.
+2025-01-15 02:34:29,900 - INFO - Connected client state_publisher_simulated_agent_1 to MQTT broker.
+2025-01-15 02:34:29,900 - INFO - Connected client order_subscriber_simulated_agent_1 to MQTT broker.
+2025-01-15 02:34:29,906 - INFO - Connected client state_publisher_simulated_agent_2 to MQTT broker.
+2025-01-15 02:34:30,588 - INFO - Connected client order_subscriber_simulated_agent_2 to MQTT broker.
+2025-01-15 02:34:30,671 - INFO - Agent simulation started at time 0.0.
